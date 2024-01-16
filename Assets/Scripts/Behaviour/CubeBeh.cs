@@ -1,12 +1,12 @@
 using System;
 using UnityEngine;
 
-namespace Fsm
+namespace Behaviour
 {
     public class CubeBeh : MonoBehaviour
     {
-        [SerializeField] private GameObject _cube;
-        [Header("Colors")] [SerializeField] private Color _firstColor;
+        [Header("Colors")] 
+        [SerializeField] private Color _firstColor;
         [SerializeField] private Color _secondColor;
         [SerializeField] private Color _thirdColor;
 
